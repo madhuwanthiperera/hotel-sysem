@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html manifest="demo_html.appcache">
+<head>
+	<title>
+	StartHotel-Leading in Hotel Industry
+	</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<style>
+body{
+	height: 100%;
+	weight: 100%;
+	background-image:url("w-retreat-maldives-hotel.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:brown;
+	
+}
+ul > li{
+	display: inline-block;
+	margin-right: 12px;
+	background-color: brown;
+	box-shadow: 3px 3px brown;
+	padding-right: 6px;
+	padding-left: 6px;
+			
+}
+ul>li>a{
+	text-decoration:none;
+	color:blue;
+}
+		
+ul > li:hover{
+	background-color: brown;
+	text-decoration:none;
+			
+}
+
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color:orange;
+}
+#round{
+border-radius:100px;
+}
+
+#back{
+background-color:green;
+}
+header{
+background-image:url("Hotel-BG-GlobalOffers.jpg");
+}
+footer{
+height:20px;
+background-color:red;
+}
+
+#m3{
+margin-left:450px;
+}
+
+</style>
+
+<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js">
+</script>
+
+<link rel="stylesheet" href="assets/css/main.css"/>
+
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="assets/css/ie8.css"/>
+<![endif]-->
+
+<!--[if lte IE 9]>
+<link rel="stylesheet" href="assets/css/ie9.css"/>
+<![endif]-->
+
+<script type="text/javascript">
+function myfunction(txt)
+{
+alert(txt)
+}
+function myFunctions() {
+    document.getElementById("demo").innerHTML = "~24-hours reception";
+    document.getElementById("demo1").innerHTML = "~Check-in possible after 15.00";
+    document.getElementById("demo2").innerHTML = "~Latest check-out by 12.00";
+    document.getElementById("demo3").innerHTML = "~Breakfast buffet from 06.30-10.30";
+    document.getElementById("demo4").innerHTML = "~Lunch from 11.00 to 15.00";
+    document.getElementById("demo5").innerHTML = "~Dinner from 17.30 to 22.30";
+    document.getElementById("demo6").innerHTML = "~Bar";
+    document.getElementById("demo7").innerHTML = "~Room service";
+    document.getElementById("demo8").innerHTML = "~Air conditioning in all rooms";
+    document.getElementById("demo9").innerHTML = "~Coffee and tea facilities in all rooms";
+    document.getElementById("demo0").innerHTML = "~Free Wi-Fi in all rooms";
+    
+}
+
+</script>
+
+</head>
+
+<body>
+	<header>
+			<div class="inner"><br><br>
+				<center>
+				<img id="round" width=120px height=90px src="hotel.gif" alt="WebMaster" /><font color="red" size="7px"><i>SUMMERFIELDS HOTEL & RESTAURANT</i></font>
+				</center><br><br><br>
+
+			
+			<ul>
+				<li><a id="m3" class="active" href="home.html">Home</a></li>
+				<li><a><font color="black">Add Contact</font></a></li>
+				<li><a href="rooms.html">Rooms</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				
+			</ul>
+				
+			</div>
+			
+	</header>
+	<!--Three-->
+<br><br>
+<table>
+<form>
+<td id="back">
+
+<fieldset>
+<legend><b><big><font color="black">Customer Informations</font></big></b></legend>
+
+<br>
+<font size="4px">
+<label for="name" id="preinput">FULL NAME:</label>
+<input type="text" name="fullname" required placeholder="Enter your full name" id="inputid"/>
+</p>
+
+
+<p>
+<label for="address" id="preinput">ADDRESS:</label>
+<input type="text" name="address" required placeholder="Enter your address" id="inputid"/>
+</p>
+
+<p>
+<label for="email" id="preinput">EMAIL ID:</label>
+<input type="email" name="usermail" required placeholder="Enter your email" id="inputid"/>
+</p>
+
+<p>
+<label for="mobile" id="preinput">MOBILE NUMBER:</label>
+<input type="number" name="usermobile" required placeholder="Enter your mobile number" id="inputid"/>
+</p>
+
+<p>
+<label for="country" id="preinput">COUNTRY:</label>
+<input type="text" name="country" required placeholder="Enter your country" id="inputid"/>
+</p>
+
+<p>
+<label for="bookdays" id="preinput">BOOKING DAYS:</label>
+<input type="text" name="bookdays" required placeholder="Enter number of days" id="inputid"/>
+</p>
+
+<p>
+<b><i><font size="5px">
+If you hope to get your wedding in our hotel please fill this informations.</font></i></b>
+</p>
+
+<p>
+<label for="date" id="preinput">DATE:</label>
+<input type="date" name="today" id="inputid"/>
+</p>
+
+<p>
+<label for="peoples" id="preinput">HOW MANY PEOPLES COME FOR THIS FUNCTION:</label>
+<input type="number" name="peoples" required placeholder="Number of peoples" id="inputid"/>
+</p>
+
+<p>
+<input type="button" onclick="myfunction('Your Submission is completed')"  value="Submit" id="inputid"/>
+<input type="button" onclick="myfunction('Your details canseled')"  value="Cansel" id="inputid"/>
+</p>
+</font>
+</td>
+<td>
+
+<center><font color="black" size="4px"><b><p id="demo"><p id="demo1"><p id="demo2"><p id="demo3"><p id="demo4"><p id="demo5"><p id="demo6"><p id="demo7">
+<p id="demo8"><p id="demo9"><p id="demo0"></b></font>
+<font size="5px" color="black"><b>Do you want informations about our hotel facilities.<br> Please click this button..</b></font></p></p></p></p></p></p></p></p></p></p></p>
+
+<button type="button" onclick="myFunctions()">Informations</button></center>
+</td>
+
+</fieldset>
+</form>
+</table>
+
+
+<section>
+
+<section class="form">
+<h1>Log In</h1>
+<form action="connect_db.php" method="post" name="login"> 
+<!--form action- when you click on the submit button login.php page redirect to connect_db.php-->
+<input type="text" name="loginusername" placeholder="Username" required /><br/><br/>
+<input type="password" name="loginpassword" placeholder="Password" required /><br/><br/>
+<input type="submit" name="loginsubmit" value="Login" /><br/>
+</form>
+<p>Not registered yet? <a href='registration.html'>Register Here</a></p>
+</section>
+
+<center>
+<script src="demo_time.js"></script>
+
+<p id="timePara"><button onclick="getDateTime()">Get Date and Time</button></p>
+</center>
+	
+		<section>
+			<br><br><br>
+			<center><font size="3"><b>Summerfield's hotel & resort, Colombo 05.</b></font></Center>
+			<center><font size="3"><b>Tel: 011-9847632/0719745637</b></font></Center>
+			<center><font size="3"><b>E-mail: summerfield@gmail.com.</b></font></Center>
+		<footer>
+			<p align="center">&copy 2018 All right reserved</p>
+		</footer>
+		</section>
+
+	<!--Scripts-->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+</body>
+</html>

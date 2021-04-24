@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			StartHotel - Leading in Hotel Industry
+		</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale-1">
+	<style>
+
+body{
+	height: 100%;
+	weight: 100%;
+	background-image: url("catamaran-beach-hotel-11-11-15-1447232003.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:brown;
+	
+	
+}
+ul > li{
+	display: inline-block;
+	margin-right: 12px;
+	background-color: brown;
+	box-shadow: 3px 3px brown;
+	padding-right: 6px;
+	padding-left: 6px;
+			
+}
+ul>li>a{
+	text-decoration:none;
+	color:blue;
+}
+		
+ul > li:hover{
+	background-color: brown;
+	text-decoration:none;
+			
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color:orange;
+}
+
+#round{
+border-radius:100px;
+}
+
+footer{
+height:20px;
+background-color:red;
+}
+
+#m3{
+margin-left:400px;
+}
+
+	</style>
+	</head>
+<body>
+<header>
+
+
+	<center>
+		<img id="round" width=120px height=90px src="hotel.gif" alt="WebMaster" /><font color="red" size="7px"><i>SUMMERFIELDS HOTEL & RESTAURANT</i></font>
+	</center>
+<br>
+<ul>
+<li><a id="m3" href="home.html">Home</a></li>
+<li><a href="addcontact.html">Add Contact</a></li>
+<li><a href="rooms.html">Rooms</a></li>
+<li><a class="active"><font color="black">About Us</font></a></li>
+
+</ul>
+</header>
+
+<br>
+<section>
+<form>
+<fieldset>
+<legend></legend>
+<center>
+<font size="5" color="green"><b>If you want to contact with our staff you can follow this informaions.</b></font>		
+<br><br><br>
+
+<font color="white"><b>Cheif Executive : Madhuwanthi Perera.</b><br>
+Mobile Number : 0710114423<br>
+Office Number : 011-2842789<br>
+(Please call from 8.00 a.m to 4.00 p.m)<br><br>
+
+<b>Manager : Sewwandi Peris.</b><br>
+Mobile Number : 0712128010<br>
+Office Number : 011-5860421<br>
+(Please call from 9.00 a.m to 4.00 p.m)<br><br>
+
+<b>Assistane Manager : Amaya Perera.</b><br>
+Mobile Number : 0716377148<br>
+Office Number : 011-4097625<br>
+(Please call from 8.00 a.m to 4.00 p.m)</font><br><br>
+
+</fieldset>
+</form>
+<section>
+
+<section class="form">
+<h1>Log In</h1>
+<form action="connect_db.php" method="post" name="login"> 
+<!--form action- when you click on the submit button login.php page redirect to connect_db.php-->
+<input type="text" name="loginusername" placeholder="Username" required /><br/><br/>
+<input type="password" name="loginpassword" placeholder="Password" required /><br/><br/>
+<input type="submit" name="loginsubmit" value="Login" /><br/>
+</form>
+<p>Not registered yet? <a href='registration.html'>Register Here</a></p>
+</section>
+
+<br>
+<center><font size="3"><b>Summerfield's hotel & resort, Colombo 05.</b></font></Center>
+<center><font size="3"><b>Tel: 011-2842789/0710114423</b></font></Center>
+<center><font size="3"><b>E-mail: summerfield@gmail.com.</b></font></Center>
+<footer>
+<p align="center">&copy 2018 All right reserved</p>
+</footer>	
+		
+</body>
+</html>
